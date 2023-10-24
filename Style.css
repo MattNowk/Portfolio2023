@@ -497,19 +497,19 @@ h2{
     height: 20rem;
   }
   
-
-  
 }
+
+@media screen and (max-width: 430px) {
+  li a{
+    font-size: 14px;
+  }
+}
+
 
 @media screen and (max-width: 377px) {
   .typingtext{
     font-size: 0.75rem;
-  }
-
-  li a{
-    font-size: 14px;
-  }  
-  
+  } 
 }
 
 @media screen and (max-width: 850px) {
