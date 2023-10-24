@@ -374,6 +374,11 @@ h2{
   transform: translateY(0);
 }
 
+.card:active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .card::before {
   content: "";
   position: absolute;
@@ -390,6 +395,11 @@ h2{
 .card:hover::before {
   opacity: 1;
 }
+
+.card:active::before {
+  opacity: 1;
+}
+
 
 .Titreprojetsperso{
   text-align: center;
